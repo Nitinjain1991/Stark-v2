@@ -440,7 +440,7 @@
               <p class="font-20-500 clr-secondary">Preview</p>
             </div>
             <div class="preview-box">
-              <img src="../assets/image/man-in-cap.svg" alt="man-in-cap" />
+              <img src="../assets/image/man-in-cap.png" alt="man-in-cap" />
               <p class="font-14-500 clr-rare ms-3">
                 Hey John how would you like to customize the personal info
               </p>
@@ -602,7 +602,7 @@
               <p class="font-20-500 clr-secondary">Preview</p>
             </div>
             <div class="preview-box">
-              <img src="../assets/image/man-in-cap.svg" alt="man-in-cap" />
+              <img src="../assets/image/man-in-cap.png" alt="man-in-cap" />
               <p class="font-14-500 clr-rare ms-3">
                 Hey John how would you like to customize the personal info
               </p>
@@ -764,7 +764,7 @@
               <p class="font-20-500 clr-secondary">Preview</p>
             </div>
             <div class="preview-box">
-              <img src="../assets/image/man-in-cap.svg" alt="man-in-cap" />
+              <img src="../assets/image/man-in-cap.png" alt="man-in-cap" />
               <p class="font-14-500 clr-rare ms-3">
                 Hey John how would you like to customize the personal info
               </p>
@@ -926,7 +926,7 @@
               <p class="font-20-500 clr-secondary">Preview</p>
             </div>
             <div class="preview-box">
-              <img src="../assets/image/man-in-cap.svg" alt="man-in-cap" />
+              <img src="../assets/image/man-in-cap.png" alt="man-in-cap" />
               <p class="font-14-500 clr-rare ms-3">
                 Hey John how would you like to customize the personal info
               </p>
@@ -1088,7 +1088,7 @@
               <p class="font-20-500 clr-secondary">Preview</p>
             </div>
             <div class="preview-box">
-              <img src="../assets/image/man-in-cap.svg" alt="man-in-cap" />
+              <img src="../assets/image/man-in-cap.png" alt="man-in-cap" />
               <p class="font-14-500 clr-rare ms-3">
                 Hey John how would you like to customize the personal info
               </p>
@@ -1250,7 +1250,7 @@
               <p class="font-20-500 clr-secondary">Preview</p>
             </div>
             <div class="preview-box">
-              <img src="../assets/image/man-in-cap.svg" alt="man-in-cap" />
+              <img src="../assets/image/man-in-cap.png" alt="man-in-cap" />
               <p class="font-14-500 clr-rare ms-3">
                 Hey John how would you like to customize the personal info
               </p>
@@ -1412,7 +1412,7 @@
               <p class="font-20-500 clr-secondary">Preview</p>
             </div>
             <div class="preview-box">
-              <img src="../assets/image/man-in-cap.svg" alt="man-in-cap" />
+              <img src="../assets/image/man-in-cap.png" alt="man-in-cap" />
               <p class="font-14-500 clr-rare ms-3">
                 Hey John how would you like to customize the personal info
               </p>
@@ -1574,7 +1574,7 @@
               <p class="font-20-500 clr-secondary">Preview</p>
             </div>
             <div class="preview-box">
-              <img src="../assets/image/man-in-cap.svg" alt="man-in-cap" />
+              <img src="../assets/image/man-in-cap.png" alt="man-in-cap" />
               <p class="font-14-500 clr-rare ms-3">
                 Hey John how would you like to customize the personal info
               </p>
@@ -1736,7 +1736,7 @@
               <p class="font-20-500 clr-secondary">Preview</p>
             </div>
             <div class="preview-box">
-              <img src="../assets/image/man-in-cap.svg" alt="man-in-cap" />
+              <img src="../assets/image/man-in-cap.png" alt="man-in-cap" />
               <p class="font-14-500 clr-rare ms-3">
                 Hey John how would you like to customize the personal info
               </p>
