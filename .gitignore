@@ -1,0 +1,11 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+
+# Nuxt dev/build outputs
+.output
+.nuxt
+# Node dependencies
+node_modules
+# System files
+*.log
