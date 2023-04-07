@@ -1,4 +1,4 @@
-export { default as Tutorial } from '../..\\components\\Tutorial.vue'
+export const Tutorial = () => import('../..\\components\\Tutorial.vue' /* webpackChunkName: "components/tutorial" */).then(c => wrapFunctional(c.default || c))
 
 // nuxt/nuxt.js#8607
 function wrapFunctional(options) {
