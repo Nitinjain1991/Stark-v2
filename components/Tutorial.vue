@@ -1,10 +1,14 @@
 <!-- Please remove this file from your project -->
 <template>
-  <div>
+  <div class="pb-4">
     <!-- headings -->
     <div class="flex p-5" style="justify-content: space-between">
       <a href="#" class="font-28-600 flex">
-        <img src="../assets/image/arrow-left.svg" alt="arrow-left" />
+        <img
+          src="../assets/image/arrow-left.svg"
+          alt="arrow-left"
+          class="me-2"
+        />
         Resume Builder</a
       >
       <a href="#">
@@ -363,35 +367,6 @@
             </button>
           </span>
         </div>
-        <!-- <span>
-        <label class="switch">
-          <input type="checkbox" id="one" checked />
-          <span class="slider round"></span>
-        </label>
-        <label id="one-tab" for="one" class="font-20-500 ms-3"
-          >Personal Info</label
-        >
-      </span>
-      <span>
-        <label class="switch">
-          <input type="checkbox" id="two" checked />
-          <span class="slider round"></span>
-        </label>
-        <label id="two-tab" for="two" class="font-20-500 ms-3"
-          >Skills</label
-        >
-      </span>
-      <span>
-        <label class="switch">
-          <input type="checkbox" id="three" checked />
-          <span class="slider round"></span>
-        </label>
-        <label id="three-tab" for="three" class="font-20-500 ms-3"
-          >Work Experience</label
-        >
-      </span> -->
-        <!-- <label class="tab" id="two-tab" for="two">Skills</label>
-      <label class="tab" id="three-tab" for="three">Work Experience</label> -->
       </div>
 
       <!-- right sidebar -->
@@ -552,11 +527,11 @@
                 </label>
               </div>
             </form>
+            <span class="flex items-center mt-5 pt-4">
+              <button class="btn-light font-18-500 w-1/2">Cancel</button>
+              <button class="btn-dark ms-3 font-18-500 w-1/2">Save</button>
+            </span>
           </form>
-          <span class="flex items-center mt-5 pt-4">
-            <button class="btn-light font-18-500 w-1/2">Cancel</button>
-            <button class="btn-dark ms-3 font-18-500 w-1/2">Save</button>
-          </span>
         </div>
         <div class="panel" id="two-panel">
           <div class="bb-light pb-2">
@@ -636,13 +611,13 @@
               <div class="form-check bb-light pb-3">
                 <label
                   class="form-check-label font-14-500 flex align-center"
-                  for="flexRadioDefault1"
+                  for="flexRadiSkill1"
                 >
                   <input
                     class="form-check-input"
                     type="radio"
                     name="flexRadioDefault"
-                    id="flexRadioDefault1"
+                    id="flexRadiSkill1"
                   />
                   <span class="ms-3">
                     <img
@@ -662,13 +637,13 @@
               <div class="form-check bb-light pb-3 mt-3">
                 <label
                   class="form-check-label font-14-500 flex align-center"
-                  for="flexRadioDefault2"
+                  for="flexRadioSkill2"
                 >
                   <input
                     class="form-check-input"
                     type="radio"
                     name="flexRadioDefault"
-                    id="flexRadioDefault2"
+                    id="flexRadioSkill2"
                   />
                   <span class="ms-3 text-center">
                     <img
@@ -689,13 +664,13 @@
               <div class="form-check pb-3 mt-3">
                 <label
                   class="form-check-label font-14-500 flex align-center"
-                  for="flexRadioDefault3"
+                  for="flexRadioSkill3"
                 >
                   <input
                     class="form-check-input"
                     type="radio"
                     name="flexRadioDefault"
-                    id="flexRadioDefault3"
+                    id="flexRadioSkill3"
                   />
                   <span class="ms-3 flex flex-col items-end">
                     <img
@@ -714,11 +689,11 @@
                 </label>
               </div>
             </form>
+            <span class="flex items-center mt-5 pt-4">
+              <button class="btn-light font-18-500 w-1/2">Cancel</button>
+              <button class="btn-dark ms-3 font-18-500 w-1/2">Save</button>
+            </span>
           </form>
-          <span class="flex items-center mt-5 pt-4">
-            <button class="btn-light font-18-500 w-1/2">Cancel</button>
-            <button class="btn-dark ms-3 font-18-500 w-1/2">Save</button>
-          </span>
         </div>
         <div class="panel" id="three-panel">
           <div class="bb-light pb-2">
@@ -798,13 +773,13 @@
               <div class="form-check bb-light pb-3">
                 <label
                   class="form-check-label font-14-500 flex align-center"
-                  for="flexRadioDefault1"
+                  for="flexRadiowork1"
                 >
                   <input
                     class="form-check-input"
                     type="radio"
                     name="flexRadioDefault"
-                    id="flexRadioDefault1"
+                    id="flexRadiowork1"
                   />
                   <span class="ms-3">
                     <img
@@ -824,13 +799,13 @@
               <div class="form-check bb-light pb-3 mt-3">
                 <label
                   class="form-check-label font-14-500 flex align-center"
-                  for="flexRadioDefault2"
+                  for="flexRadiowork2"
                 >
                   <input
                     class="form-check-input"
                     type="radio"
                     name="flexRadioDefault"
-                    id="flexRadioDefault2"
+                    id="flexRadiowork2"
                   />
                   <span class="ms-3 text-center">
                     <img
@@ -851,13 +826,13 @@
               <div class="form-check pb-3 mt-3">
                 <label
                   class="form-check-label font-14-500 flex align-center"
-                  for="flexRadioDefault3"
+                  for="flexRadiowork3"
                 >
                   <input
                     class="form-check-input"
                     type="radio"
                     name="flexRadioDefault"
-                    id="flexRadioDefault3"
+                    id="flexRadiowork3"
                   />
                   <span class="ms-3 flex flex-col items-end">
                     <img
@@ -876,11 +851,11 @@
                 </label>
               </div>
             </form>
+            <span class="flex items-center mt-5 pt-4">
+              <button class="btn-light font-18-500 w-1/2">Cancel</button>
+              <button class="btn-dark ms-3 font-18-500 w-1/2">Save</button>
+            </span>
           </form>
-          <span class="flex items-center mt-5 pt-4">
-            <button class="btn-light font-18-500 w-1/2">Cancel</button>
-            <button class="btn-dark ms-3 font-18-500 w-1/2">Save</button>
-          </span>
         </div>
         <div class="panel" id="four-panel">
           <div class="bb-light pb-2">
@@ -960,13 +935,13 @@
               <div class="form-check bb-light pb-3">
                 <label
                   class="form-check-label font-14-500 flex align-center"
-                  for="flexRadioDefault1"
+                  for="flexRadioedu1"
                 >
                   <input
                     class="form-check-input"
                     type="radio"
                     name="flexRadioDefault"
-                    id="flexRadioDefault1"
+                    id="flexRadioedu1"
                   />
                   <span class="ms-3">
                     <img
@@ -986,13 +961,13 @@
               <div class="form-check bb-light pb-3 mt-3">
                 <label
                   class="form-check-label font-14-500 flex align-center"
-                  for="flexRadioDefault2"
+                  for="flexRadioedu2"
                 >
                   <input
                     class="form-check-input"
                     type="radio"
                     name="flexRadioDefault"
-                    id="flexRadioDefault2"
+                    id="flexRadioedu2"
                   />
                   <span class="ms-3 text-center">
                     <img
@@ -1013,13 +988,13 @@
               <div class="form-check pb-3 mt-3">
                 <label
                   class="form-check-label font-14-500 flex align-center"
-                  for="flexRadioDefault3"
+                  for="flexRadioedu3"
                 >
                   <input
                     class="form-check-input"
                     type="radio"
                     name="flexRadioDefault"
-                    id="flexRadioDefault3"
+                    id="flexRadioedu3"
                   />
                   <span class="ms-3 flex flex-col items-end">
                     <img
@@ -1038,11 +1013,11 @@
                 </label>
               </div>
             </form>
+            <span class="flex items-center mt-5 pt-4">
+              <button class="btn-light font-18-500 w-1/2">Cancel</button>
+              <button class="btn-dark ms-3 font-18-500 w-1/2">Save</button>
+            </span>
           </form>
-          <span class="flex items-center mt-5 pt-4">
-            <button class="btn-light font-18-500 w-1/2">Cancel</button>
-            <button class="btn-dark ms-3 font-18-500 w-1/2">Save</button>
-          </span>
         </div>
         <div class="panel" id="five-panel">
           <div class="bb-light pb-2">
@@ -1122,13 +1097,13 @@
               <div class="form-check bb-light pb-3">
                 <label
                   class="form-check-label font-14-500 flex align-center"
-                  for="flexRadioDefault1"
+                  for="flexRadiocare1"
                 >
                   <input
                     class="form-check-input"
                     type="radio"
                     name="flexRadioDefault"
-                    id="flexRadioDefault1"
+                    id="flexRadiocare1"
                   />
                   <span class="ms-3">
                     <img
@@ -1148,13 +1123,13 @@
               <div class="form-check bb-light pb-3 mt-3">
                 <label
                   class="form-check-label font-14-500 flex align-center"
-                  for="flexRadioDefault2"
+                  for="flexRadiocare2"
                 >
                   <input
                     class="form-check-input"
                     type="radio"
                     name="flexRadioDefault"
-                    id="flexRadioDefault2"
+                    id="flexRadiocare2"
                   />
                   <span class="ms-3 text-center">
                     <img
@@ -1175,13 +1150,13 @@
               <div class="form-check pb-3 mt-3">
                 <label
                   class="form-check-label font-14-500 flex align-center"
-                  for="flexRadioDefault3"
+                  for="flexRadiocare3"
                 >
                   <input
                     class="form-check-input"
                     type="radio"
                     name="flexRadioDefault"
-                    id="flexRadioDefault3"
+                    id="flexRadiocare3"
                   />
                   <span class="ms-3 flex flex-col items-end">
                     <img
@@ -1200,11 +1175,11 @@
                 </label>
               </div>
             </form>
+            <span class="flex items-center mt-5 pt-4">
+              <button class="btn-light font-18-500 w-1/2">Cancel</button>
+              <button class="btn-dark ms-3 font-18-500 w-1/2">Save</button>
+            </span>
           </form>
-          <span class="flex items-center mt-5 pt-4">
-            <button class="btn-light font-18-500 w-1/2">Cancel</button>
-            <button class="btn-dark ms-3 font-18-500 w-1/2">Save</button>
-          </span>
         </div>
         <div class="panel" id="six-panel">
           <div class="bb-light pb-2">
@@ -1284,13 +1259,13 @@
               <div class="form-check bb-light pb-3">
                 <label
                   class="form-check-label font-14-500 flex align-center"
-                  for="flexRadioDefault1"
+                  for="flexRadiocerti1"
                 >
                   <input
                     class="form-check-input"
                     type="radio"
                     name="flexRadioDefault"
-                    id="flexRadioDefault1"
+                    id="flexRadiocerti1"
                   />
                   <span class="ms-3">
                     <img
@@ -1310,13 +1285,13 @@
               <div class="form-check bb-light pb-3 mt-3">
                 <label
                   class="form-check-label font-14-500 flex align-center"
-                  for="flexRadioDefault2"
+                  for="flexRadiocerti2"
                 >
                   <input
                     class="form-check-input"
                     type="radio"
                     name="flexRadioDefault"
-                    id="flexRadioDefault2"
+                    id="flexRadiocerti2"
                   />
                   <span class="ms-3 text-center">
                     <img
@@ -1337,13 +1312,13 @@
               <div class="form-check pb-3 mt-3">
                 <label
                   class="form-check-label font-14-500 flex align-center"
-                  for="flexRadioDefault3"
+                  for="flexRadiocerti3"
                 >
                   <input
                     class="form-check-input"
                     type="radio"
                     name="flexRadioDefault"
-                    id="flexRadioDefault3"
+                    id="flexRadiocerti3"
                   />
                   <span class="ms-3 flex flex-col items-end">
                     <img
@@ -1362,11 +1337,11 @@
                 </label>
               </div>
             </form>
+            <span class="flex items-center mt-5 pt-4">
+              <button class="btn-light font-18-500 w-1/2">Cancel</button>
+              <button class="btn-dark ms-3 font-18-500 w-1/2">Save</button>
+            </span>
           </form>
-          <span class="flex items-center mt-5 pt-4">
-            <button class="btn-light font-18-500 w-1/2">Cancel</button>
-            <button class="btn-dark ms-3 font-18-500 w-1/2">Save</button>
-          </span>
         </div>
         <div class="panel" id="seven-panel">
           <div class="bb-light pb-2">
@@ -1446,13 +1421,13 @@
               <div class="form-check bb-light pb-3">
                 <label
                   class="form-check-label font-14-500 flex align-center"
-                  for="flexRadioDefault1"
+                  for="flexRadioawards1"
                 >
                   <input
                     class="form-check-input"
                     type="radio"
                     name="flexRadioDefault"
-                    id="flexRadioDefault1"
+                    id="flexRadioawards1"
                   />
                   <span class="ms-3">
                     <img
@@ -1472,13 +1447,13 @@
               <div class="form-check bb-light pb-3 mt-3">
                 <label
                   class="form-check-label font-14-500 flex align-center"
-                  for="flexRadioDefault2"
+                  for="flexRadioawards2"
                 >
                   <input
                     class="form-check-input"
                     type="radio"
                     name="flexRadioDefault"
-                    id="flexRadioDefault2"
+                    id="flexRadioawards2"
                   />
                   <span class="ms-3 text-center">
                     <img
@@ -1499,13 +1474,13 @@
               <div class="form-check pb-3 mt-3">
                 <label
                   class="form-check-label font-14-500 flex align-center"
-                  for="flexRadioDefault3"
+                  for="flexRadioawards3"
                 >
                   <input
                     class="form-check-input"
                     type="radio"
                     name="flexRadioDefault"
-                    id="flexRadioDefault3"
+                    id="flexRadioawards3"
                   />
                   <span class="ms-3 flex flex-col items-end">
                     <img
@@ -1524,11 +1499,11 @@
                 </label>
               </div>
             </form>
+            <span class="flex items-center mt-5 pt-4">
+              <button class="btn-light font-18-500 w-1/2">Cancel</button>
+              <button class="btn-dark ms-3 font-18-500 w-1/2">Save</button>
+            </span>
           </form>
-          <span class="flex items-center mt-5 pt-4">
-            <button class="btn-light font-18-500 w-1/2">Cancel</button>
-            <button class="btn-dark ms-3 font-18-500 w-1/2">Save</button>
-          </span>
         </div>
         <div class="panel" id="eight-panel">
           <div class="bb-light pb-2">
@@ -1608,13 +1583,13 @@
               <div class="form-check bb-light pb-3">
                 <label
                   class="form-check-label font-14-500 flex align-center"
-                  for="flexRadioDefault1"
+                  for="flexRadiovolu1"
                 >
                   <input
                     class="form-check-input"
                     type="radio"
                     name="flexRadioDefault"
-                    id="flexRadioDefault1"
+                    id="flexRadiovolu1"
                   />
                   <span class="ms-3">
                     <img
@@ -1634,13 +1609,13 @@
               <div class="form-check bb-light pb-3 mt-3">
                 <label
                   class="form-check-label font-14-500 flex align-center"
-                  for="flexRadioDefault2"
+                  for="flexRadiovolu2"
                 >
                   <input
                     class="form-check-input"
                     type="radio"
                     name="flexRadioDefault"
-                    id="flexRadioDefault2"
+                    id="flexRadiovolu2"
                   />
                   <span class="ms-3 text-center">
                     <img
@@ -1661,13 +1636,13 @@
               <div class="form-check pb-3 mt-3">
                 <label
                   class="form-check-label font-14-500 flex align-center"
-                  for="flexRadioDefault3"
+                  for="flexRadiovolu3"
                 >
                   <input
                     class="form-check-input"
                     type="radio"
                     name="flexRadioDefault"
-                    id="flexRadioDefault3"
+                    id="flexRadiovolu3"
                   />
                   <span class="ms-3 flex flex-col items-end">
                     <img
@@ -1686,11 +1661,11 @@
                 </label>
               </div>
             </form>
+            <span class="flex items-center mt-5 pt-4">
+              <button class="btn-light font-18-500 w-1/2">Cancel</button>
+              <button class="btn-dark ms-3 font-18-500 w-1/2">Save</button>
+            </span>
           </form>
-          <span class="flex items-center mt-5 pt-4">
-            <button class="btn-light font-18-500 w-1/2">Cancel</button>
-            <button class="btn-dark ms-3 font-18-500 w-1/2">Save</button>
-          </span>
         </div>
         <div class="panel" id="nine-panel">
           <div class="bb-light pb-2">
@@ -1770,13 +1745,13 @@
               <div class="form-check bb-light pb-3">
                 <label
                   class="form-check-label font-14-500 flex align-center"
-                  for="flexRadioDefault1"
+                  for="flexRadiosocial1"
                 >
                   <input
                     class="form-check-input"
                     type="radio"
                     name="flexRadioDefault"
-                    id="flexRadioDefault1"
+                    id="flexRadiosocial1"
                   />
                   <span class="ms-3">
                     <img
@@ -1796,13 +1771,13 @@
               <div class="form-check bb-light pb-3 mt-3">
                 <label
                   class="form-check-label font-14-500 flex align-center"
-                  for="flexRadioDefault2"
+                  for="flexRadiosocial2"
                 >
                   <input
                     class="form-check-input"
                     type="radio"
                     name="flexRadioDefault"
-                    id="flexRadioDefault2"
+                    id="flexRadiosocial2"
                   />
                   <span class="ms-3 text-center">
                     <img
@@ -1823,13 +1798,13 @@
               <div class="form-check pb-3 mt-3">
                 <label
                   class="form-check-label font-14-500 flex align-center"
-                  for="flexRadioDefault3"
+                  for="flexRadiosocial3"
                 >
                   <input
                     class="form-check-input"
                     type="radio"
                     name="flexRadioDefault"
-                    id="flexRadioDefault3"
+                    id="flexRadiosocial3"
                   />
                   <span class="ms-3 flex flex-col items-end">
                     <img
@@ -1848,11 +1823,11 @@
                 </label>
               </div>
             </form>
+            <span class="flex items-center mt-5 pt-4">
+              <button class="btn-light font-18-500 w-1/2">Cancel</button>
+              <button class="btn-dark ms-3 font-18-500 w-1/2">Save</button>
+            </span>
           </form>
-          <span class="flex items-center mt-5 pt-4">
-            <button class="btn-light font-18-500 w-1/2">Cancel</button>
-            <button class="btn-dark ms-3 font-18-500 w-1/2">Save</button>
-          </span>
         </div>
       </div>
     </div>
