@@ -6,9 +6,6 @@
 # install dependencies
 $ npm install
 
-#install TailwindCss 
-$ npm install tailwindcss postcss autoprefixer
-$ npx tailwindcss init
 
 # serve with hot reload at localhost:3000
 $ npm run dev
