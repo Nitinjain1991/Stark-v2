@@ -15,10 +15,13 @@
   font-family: "Poppins-SemiBold";
   src: url(../fonts/Poppins-SemiBold.ttf);
 }
+.ff-poppins-medium {
+  font-family: "poppins-medium";
+}
 .font-14-400 {
   font-size: 14px;
   font-weight: 400;
-  font-family: "poppins-medium";
+  font-family: "poppins-Regular";
 }
 .font-14-500 {
   font-size: 14px;
@@ -187,9 +190,6 @@ textarea {
   font-size: 14px;
   font-weight: 400;
 }
-.tabs {
-  width: 30%;
-}
 .preview-box {
   display: flex;
   align-items: center;
@@ -202,7 +202,6 @@ textarea {
   cursor: pointer;
 }
 .warpper {
-  display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
@@ -212,7 +211,6 @@ textarea {
   border-radius: 12px;
   overflow: hidden;
   padding: 20px;
-  width: 30%;
 }
 .panel {
   display: none;
@@ -245,14 +243,7 @@ textarea {
   display: block;
 }
 
-@media (min-width: 1400px) {
-  .panels {
-    width: 25%;
-  }
-  .tabs {
-    width: 25%;
-  }
-}
+/* responsive css */
 
 @media (max-width: 1400px) {
   #navbar {
@@ -264,16 +255,4 @@ textarea {
     background-color: lightcoral;
     transition: all 1000ms;
   }
-}
-
-.shownav {
-  left: 0 !important;
-}
-
-.overflow_hidden {
-  overflow-x: hidden !important;
-}
-
-.z_index_1111 {
-  z-index: 1111;
 }

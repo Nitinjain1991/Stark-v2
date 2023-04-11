@@ -2,7 +2,7 @@
   {
     "name": "index",
     "path": "/",
-    "component": "C:\\\\Users\\\\HP\\\\Desktop\\\\my-app\\\\pages\\\\index.vue",
+    "component": "C:\\\\Users\\\\HP\\\\Desktop\\\\nuxt-js\\\\my-app\\\\pages\\\\index.vue",
     "chunkName": "pages/index"
   }
 ]

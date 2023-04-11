@@ -3,7 +3,11 @@
   <div class="pb-4">
     <!-- headings -->
     <div class="flex p-5" style="justify-content: space-between">
-      <a href="#" class="font-28-600 flex">
+      <a
+        href="#"
+        class="text-2xl flex no-underline hover:underline md:text-3xl"
+        @click="showSidebar = !showSidebar"
+      >
         <img
           src="../assets/image/arrow-left.svg"
           alt="arrow-left"
@@ -17,7 +21,7 @@
     </div>
 
     <!-- main content -->
-    <div class="warpper px-5">
+    <div class="warpper px-2 relative md:px-5 flex">
       <input class="radio" id="one" name="group" type="radio" checked />
       <input class="radio" id="two" name="group" type="radio" />
       <input class="radio" id="three" name="group" type="radio" />
@@ -29,15 +33,20 @@
       <input class="radio" id="nine" name="group" type="radio" />
 
       <!-- left sidebar -->
-      <div class="tabs">
+      <div
+        class="tabs bg-white absolute inset-y-0 left-0 transform -translate-x-full transition duration-200 ease-in-out w-full md:w-4/12 md:relative md:-translate-x-0"
+        :class="{ 'absolute translate-x-0': showSidebar }"
+      >
         <div class="sidebar-left">
           <div class="toggle-box">
-            <span class="w-full flex">
+            <span class="w-full flex"
+            @click="showSidebar = !showSidebar"
+            >
               <label class="switch">
                 <input type="checkbox" id="one" checked />
                 <span class="slider round"></span>
               </label>
-              <label for="one" class="font-20-500 ms-3 inline-block py-20 w-4/5"
+              <label for="one" class="ff-poppins-medium text-base lg:text-xl ms-3 inline-block py-20 w-4/5"
                 >Personal Info</label
               >
             </span>
@@ -66,12 +75,14 @@
             </span>
           </div>
           <div class="toggle-box">
-            <span class="w-full flex">
+            <span class="w-full flex"
+            @click="showSidebar = !showSidebar"
+            >
               <label class="switch">
                 <input type="checkbox" id="two" checked />
                 <span class="slider round"></span>
               </label>
-              <label for="two" class="font-20-500 ms-3 inline-block py-20 w-4/5"
+              <label for="two" class="ff-poppins-medium text-base lg:text-xl ms-3 inline-block py-20 w-4/5"
                 >Skills</label
               >
             </span>
@@ -100,14 +111,16 @@
             </span>
           </div>
           <div class="toggle-box">
-            <span class="w-full flex">
+            <span class="w-full flex"
+            @click="showSidebar = !showSidebar"
+            >
               <label class="switch">
                 <input type="checkbox" id="three" checked />
                 <span class="slider round"></span>
               </label>
               <label
                 for="three"
-                class="inline-block py-20 w-full font-20-500 ms-3"
+                class="inline-block py-20 w-full ff-poppins-medium text-base lg:text-xl ms-3"
                 >Work Experience</label
               >
             </span>
@@ -136,14 +149,16 @@
             </span>
           </div>
           <div class="toggle-box">
-            <span class="w-full flex">
+            <span class="w-full flex"
+            @click="showSidebar = !showSidebar"
+            >
               <label class="switch">
                 <input type="checkbox" id="four" checked />
                 <span class="slider round"></span>
               </label>
               <label
                 for="four"
-                class="inline-block py-20 w-full font-20-500 ms-3"
+                class="inline-block py-20 w-full ff-poppins-medium text-base lg:text-xl ms-3"
                 >Education</label
               >
             </span>
@@ -172,14 +187,16 @@
             </span>
           </div>
           <div class="toggle-box">
-            <span class="w-full flex">
+            <span class="w-full flex"
+            @click="showSidebar = !showSidebar"
+            >
               <label class="switch">
                 <input type="checkbox" id="five" checked />
                 <span class="slider round"></span>
               </label>
               <label
                 for="five"
-                class="inline-block py-20 w-full font-20-500 ms-3"
+                class="inline-block py-20 w-full ff-poppins-medium text-base lg:text-xl ms-3"
                 >Career Objective</label
               >
             </span>
@@ -208,14 +225,16 @@
             </span>
           </div>
           <div class="toggle-box">
-            <span class="w-full flex">
+            <span class="w-full flex"
+            @click="showSidebar = !showSidebar"
+            >
               <label class="switch">
                 <input type="checkbox" id="six" checked />
                 <span class="slider round"></span>
               </label>
               <label
                 for="six"
-                class="inline-block py-20 w-full font-20-500 ms-3"
+                class="inline-block py-20 w-full ff-poppins-medium text-base lg:text-xl ms-3"
                 >Certifications & Licenses</label
               >
             </span>
@@ -244,14 +263,16 @@
             </span>
           </div>
           <div class="toggle-box">
-            <span class="w-full flex">
+            <span class="w-full flex"
+            @click="showSidebar = !showSidebar"
+            >
               <label class="switch">
                 <input type="checkbox" id="seven" checked />
                 <span class="slider round"></span>
               </label>
               <label
                 for="seven"
-                class="inline-block py-20 w-full font-20-500 ms-3"
+                class="inline-block py-20 w-full ff-poppins-medium text-base lg:text-xl ms-3"
                 >Awards & Honors</label
               >
             </span>
@@ -280,14 +301,16 @@
             </span>
           </div>
           <div class="toggle-box">
-            <span class="w-full flex">
+            <span class="w-full flex"
+            @click="showSidebar = !showSidebar"
+            >
               <label class="switch">
                 <input type="checkbox" id="eight" checked />
                 <span class="slider round"></span>
               </label>
               <label
                 for="eight"
-                class="inline-block py-20 w-full font-20-500 ms-3"
+                class="inline-block py-20 w-full ff-poppins-medium text-base lg:text-xl ms-3"
                 >Volunteer Experience</label
               >
             </span>
@@ -316,14 +339,16 @@
             </span>
           </div>
           <div class="toggle-box">
-            <span class="w-full flex">
+            <span class="w-full flex"
+            @click="showSidebar = !showSidebar"
+            >
               <label class="switch">
                 <input type="checkbox" id="nine" checked />
                 <span class="slider round"></span>
               </label>
               <label
                 for="nine"
-                class="inline-block py-20 w-full font-20-500 ms-3"
+                class="inline-block py-20 w-full ff-poppins-medium text-base lg:text-xl ms-3"
                 >Social Network</label
               >
             </span>
@@ -369,8 +394,8 @@
         </div>
       </div>
 
-      <!-- right sidebar -->
-      <div class="panels">
+      <!-- right sidebar  -->
+      <div class="panels w-full md:w-4/12">
         <div class="panel" id="one-panel">
           <div class="bb-light pb-2">
             <p class="font-20-500 clr-secondary">Personal Info</p>
@@ -1835,7 +1860,16 @@
 </template>
 
 <script>
+import { ref } from "vue";
+// import { Ref } from "vue";
 export default {
   name: "NuxtTutorial",
+  setup() {
+    const showSidebar = ref(true);
+
+    return {
+      showSidebar,
+    };
+  },
 };
 </script>
